@@ -8,3 +8,33 @@
   */
 
 /*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+
+.content-details {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #e04b5a;
+    text-align: center;
+    font-weight: 500;
+}
+
+.portfolio-details {
+    list-style: none;
+    padding: 0;
+    margin: 15px auto 0 auto;
+    width: fit-content;
+    text-align: left;
+}
+
+.portfolio-details li {
+    color: #e04b5a;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 4px;
+}
+
+.portfolio-details li::before {
+    content: "• ";
+    color: #e04b5a;
+}
